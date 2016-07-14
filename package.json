@@ -1,0 +1,33 @@
+{
+  "name": "expressionscript",
+  "version": "0.1.0",
+  "description": "Code-as-data compiler for TypeScript. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qsc": "bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozele/ExpressionScript.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Expression",
+    "Tree",
+    "Metaprogramming"
+  ],
+  "author": "Eric Rozell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rozele/ExpressionScript/issues"
+  },
+  "homepage": "https://github.com/rozele/ExpressionScript#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "minimist": "^1.2.0",
+    "typescript": "^2.0.0-dev.20160711"
+  }
+}

@@ -1,0 +1,9 @@
+const path = require('path');
+const {compile} = require('../src/compiler/compile');
+const argv = require('minimist')(process.argv.slice(2));
+
+if (argv._.length < 1) {
+  console.error('USAGE: qsc <file>');
+} else {
+  compile(argv._[0]);
+}
